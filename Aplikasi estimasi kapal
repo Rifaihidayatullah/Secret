@@ -1,0 +1,527 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package estimasibiayakapal;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class Form1 {
+public static void main(String[] args) throws IOException{
+        Scanner terminalInput = new Scanner(System.in);
+        String pilihanUser;
+        String pilihanUser1;
+        String pilihanUser2;
+        String pilihanUser3;
+        String pilihanUser4;
+        String pilihanUser5;
+        String pilihanUser6;
+        String pilihanUser7;
+        String pilihanUser8;
+        Boolean isLanjut = true;
+        
+        while(isLanjut) {
+        System.out.println("Jasa Pemeriksaan Kapal dalam Karantin (COP) \n");
+        System.out.println("1.\t Kapal 7 sampai dengan 100 GT \n");
+        System.out.println("2.\t Kapal > 100 sampai dengan 200 GT \n");
+        System.out.println("3.\t Kapal > 200 sampai dengan 350 GT \n");
+        System.out.println("4.\t Kapal > 350 sampai dengan 1.000 GT \n");
+        System.out.println("5.\t Kapal > 1.000 sampai dengan 2.000 GT \n");
+        System.out.println("6.\t Kapal > 2.000 sampai dengan 3.500 GT \n");
+        System.out.println("7.\t Kapal > 3.500 sampai dengan 7.000 GT \n");
+        System.out.println("8.\t Kapal > 7.000 sampai dengan 10.000 GT \n");
+        System.out.println("9.\t Kapal > 10.000 sampai dengan 15.000 GT \n");
+        System.out.println("10.\t Kapal > 15.000 sampai dengan 20.000 GT \n");
+        System.out.println("11.\t Kapal > 20.000 GT \n");
+        
+        System.out.print("\n\n Pilih Anda: ");
+        pilihanUser1 = terminalInput.next();
+        
+        switch(pilihanUser1){
+            case "1" :
+                System.out.println("Rp.50.000");
+                //Tampil Data Film
+                break;
+            case "2" :
+                System.out.println("Rp.60.000");
+                //Cari Data Film
+                break;
+            case "3" :
+                System.out.println("Rp.70.000");
+                //Tambah Data Film
+                break;
+            case "4" :
+                System.out.println("Rp.58.000");
+                //Mengubah Data Film
+                break;
+            case "5" :
+                System.out.println("Rp.120.000");
+                //Menghapus Data Film
+                break;
+            case "6" :
+                System.out.println("Rp.150.000");
+                //Tampil Data Film
+                break;
+            case "7" :
+                System.out.println("Rp.175.000");
+                //Cari Data Film
+                break;
+            case "8" :
+                System.out.println("Rp.200.000");
+                //Tambah Data Film
+                break;
+            case "9" :
+                System.out.println("Rp.250.000");
+                //Mengubah Data Film
+                break;
+            case "10" :
+                System.out.println("Rp.275.000");
+                //Menghapus Data Film
+                break;
+            case "11" :
+                System.out.println("Rp.300.000");
+                //Menghapus Data Film
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+        }
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n");
+            System.out.println("1.\t Kapal Dalam Negeri \n");
+            System.out.println("2.\t Kapal Luar Negeri \n");
+            
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser2 = terminalInput.next();
+        
+            switch(pilihanUser2){
+            case "1" :
+                System.out.println("Rp.0");
+                //Tampil Data Film
+                break;
+            case "2" :
+                System.out.println("Rp.313.016");
+                //Cari Data Film
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n LABUH \n");
+            System.out.println("1.\t 0 s/d 500 GT \n");
+            System.out.println("2.\t 500 s/d 1.000 GT \n");
+            System.out.println("3.\t 1.000 s/d 1.500 GT \n");
+            System.out.println("4.\t 1.500 s/d 2.000 GT \n");
+            System.out.println("5.\t 2.000 s/d 2.500 GT \n");
+            System.out.println("6.\t 2.500 s/d 3.000 GT \n");
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser3 = terminalInput.next();
+        
+            switch(pilihanUser3){
+            case "1" :
+                System.out.println("Rp.100.000");
+                break;
+            case "2" :
+                System.out.println("Rp.200.000");
+                break;
+            case "3" :
+                System.out.println("Rp.300.000");
+                break;
+            case "4" :
+                System.out.println("Rp.400.000");
+                break;
+                case "5" :
+                System.out.println("Rp.500.000");    
+                break;
+            case "6" :
+                System.out.println("Rp.600.000");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n PANDU \n");
+            System.out.println("1.\t 0 s/d 500 GT \n");
+            System.out.println("2.\t 500 s/d 1.000 GT \n");
+            System.out.println("3.\t 1.000 s/d 1.500 GT \n");
+            System.out.println("4.\t 1.500 s/d 2.000 GT \n");
+            System.out.println("5.\t 2.000 s/d 2.500 GT \n");
+            System.out.println("6.\t 2.500 s/d 3.000 GT \n");
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser4 = terminalInput.next();
+        
+            switch(pilihanUser4){
+            case "1" :
+                System.out.println("Rp.2.413.320");
+                break;
+            case "2" :
+                System.out.println("Rp.2.697.240");
+                break;
+            case "3" :
+                System.out.println("Rp.2.981.160");
+                break;
+            case "4" :
+                System.out.println("Rp.3.265.080");    
+                break;
+            case "5" :
+                System.out.println("Rp.3.565.080");    
+                break;
+            case "6" :
+                System.out.println("Rp.4.413.080");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n TUNDA \n");
+            System.out.println("1.\t 0 s/d 500 GT \n");
+            System.out.println("2.\t 500 s/d 1.000 GT \n");
+            System.out.println("3.\t 1.000 s/d 1.500 GT \n");
+            System.out.println("4.\t 1.500 s/d 2.000 GT \n");
+            System.out.println("5.\t 2.000 s/d 2.500 GT \n");
+            System.out.println("6.\t 2.500 s/d 3.000 GT \n");
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser5 = terminalInput.next();
+        
+            switch(pilihanUser5){
+            case "1" :
+                System.out.println("Rp.2.413.320");
+                break;
+            case "2" :
+                System.out.println("Rp.2.697.240");
+                break;
+            case "3" :
+                System.out.println("Rp.2.981.160");
+                break;
+            case "4" :
+                System.out.println("Rp.3.265.080");    
+                break;
+            case "5" :
+                System.out.println("Rp.3.565.080");    
+                break;
+            case "6" :
+                System.out.println("Rp.4.413.080");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n KEPIL \n");
+            System.out.println("1.\t 0 s/d 500 GT \n");
+            System.out.println("2.\t 500 s/d 1.000 GT \n");
+            System.out.println("3.\t 1.000 s/d 1.500 GT \n");
+            System.out.println("4.\t 1.500 s/d 2.000 GT \n");
+            System.out.println("5.\t 2.000 s/d 2.500 GT \n");
+            System.out.println("6.\t 2.500 s/d 3.000 GT \n");
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser6 = terminalInput.next();
+        
+            switch(pilihanUser6){
+            case "1" :
+                System.out.println("Rp.8.229.492");
+                break;
+            case "2" :
+                System.out.println("Rp.8.353.707");
+                break;
+            case "3" :
+                System.out.println("Rp.8.477.922");
+                break;
+            case "4" :
+                System.out.println("Rp.8.602.137");    
+                break;
+            case "5" :
+                System.out.println("Rp.8.726.352");    
+                break;
+            case "6" :
+                System.out.println("Rp.8.850.567");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            
+            System.out.println("Permintaan Pelayanan Kapal dan Barang \n TAMBAT \n");
+            System.out.println("1.\t Kapal Dalam Negeri \n");
+            System.out.println("2.\t Kapal Luar Negeri \n");
+            
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser7 = terminalInput.next();
+        
+            switch(pilihanUser7){
+            case "1" :
+                System.out.println("Rp.0");
+                break;
+            case "2" :
+                System.out.println("Rp.1.313.000");
+                break;
+
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            System.out.println("Port Health Quarantine Clearance (PHQC) \n");
+            System.out.println("1.\t 0 s/d 500 GT \n");
+            System.out.println("2.\t 100 > 200 GT \n");
+            System.out.println("3.\t 200 > 350 GT \n");
+            System.out.println("4.\t 350 > 1.000 GT \n");
+            System.out.println("5.\t 1.000 > 2.000 GT \n");
+            System.out.println("6.\t 2.000 > 3.500 GT \n");
+            System.out.println("7.\t 3.500 > 7.000 GT \n");
+            System.out.println("8.\t 7.000 > 10.000 GT \n");
+            System.out.println("9.\t 10.000 > 15.000 GT \n");
+            
+            System.out.print("\n\n Pilih Anda: ");
+            pilihanUser8 = terminalInput.next();
+        
+            switch(pilihanUser8){
+            case "1" :
+                System.out.println("Rp.20.000");
+                break;
+            case "2" :
+                System.out.println("Rp.25.000");
+                break;
+            case "3" :
+                System.out.println("Rp.30.000");
+                break; 
+            case "4" :
+                System.out.println("Rp.35.000");
+                break;
+            case "5" :
+                System.out.println("Rp.50.000");
+                break;
+            case "6" :
+                System.out.println("Rp.60.000");
+                break;
+            case "7" :
+                System.out.println("Rp.75.000");
+                break;
+            case "8" :
+                System.out.println("Rp.85.000");
+                break;
+            case "9" :
+                System.out.println("Rp.100.000");
+                break;
+
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            System.out.print("\n Jasa Pemeriksaan Kapal dalam Karantin (COP)\t:" +pilihanUser1+"\n");
+            switch(pilihanUser1){
+            case "1" :
+                System.out.println("\tRp.50.000");
+                //Tampil Data Film
+                break;
+            case "2" :
+                System.out.println("\tRp.60.000");
+                //Cari Data Film
+                break;
+            case "3" :
+                System.out.println("\tRp.70.000");
+                //Tambah Data Film
+                break;
+            case "4" :
+                System.out.println("\tRp.58.000");
+                //Mengubah Data Film
+                break;
+            case "5" :
+                System.out.println("\tRp.120.000");
+                //Menghapus Data Film
+                break;
+            case "6" :
+                System.out.println("\tRp.150.000");
+                //Tampil Data Film
+                break;
+            case "7" :
+                System.out.println("\tRp.175.000");
+                //Cari Data Film
+                break;
+            case "8" :
+                System.out.println("\tRp.200.000");
+                //Tambah Data Film
+                break;
+            case "9" :
+                System.out.println("\tRp.250.000");
+                //Mengubah Data Film
+                break;
+            case "10" :
+                System.out.println("\tRp.275.000");
+                //Menghapus Data Film
+                break;
+            case "11" :
+                System.out.println("\tRp.300.000");
+                //Menghapus Data Film
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+        }
+            System.out.println("\n\n Permintaan Pelayanan Kapal dan Barang ");
+            System.out.print("\n Labuh\t:" +pilihanUser2+"");
+                        switch(pilihanUser2){
+            case "1" :
+                System.out.println("\tRp.0");
+                //Tampil Data Film
+                break;
+            case "2" :
+                System.out.println("\tRp.313.016");
+                //Cari Data Film
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.print("\n Pandu\t:" +pilihanUser3+"");
+            switch(pilihanUser3){
+            case "1" :
+                System.out.println("\tRp.100.000");
+                break;
+            case "2" :
+                System.out.println("\tRp.200.000");
+                break;
+            case "3" :
+                System.out.println("\tRp.300.000");
+                break;
+            case "4" :
+                System.out.println("\tRp.400.000");
+                        
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            
+            System.out.print("\n Tunda\t:" +pilihanUser4+"");
+            switch(pilihanUser4){
+            case "1" :
+                System.out.println("Rp.2.413.320");
+                break;
+            case "2" :
+                System.out.println("Rp.2.697.240");
+                break;
+            case "3" :
+                System.out.println("Rp.2.981.160");
+                break;
+            case "4" :
+                System.out.println("Rp.3.265.080");    
+                break;
+            case "5" :
+                System.out.println("Rp.3.565.080");    
+                break;
+            case "6" :
+                System.out.println("Rp.4.413.080");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.print("\n Kepil\t:" +pilihanUser5+"");
+            switch(pilihanUser5){
+            case "1" :
+                System.out.println("Rp.2.413.320");
+                break;
+            case "2" :
+                System.out.println("Rp.2.697.240");
+                break;
+            case "3" :
+                System.out.println("Rp.2.981.160");
+                break;
+            case "4" :
+                System.out.println("Rp.3.265.080");    
+                break;
+            case "5" :
+                System.out.println("Rp.3.565.080");    
+                break;
+            case "6" :
+                System.out.println("Rp.4.413.080");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.print("\n Tambat\t:" +pilihanUser6+"");
+            switch(pilihanUser6){
+                case "1" :
+                System.out.println("Rp.8.229.492");
+                break;
+            case "2" :
+                System.out.println("Rp.8.353.707");
+                break;
+            case "3" :
+                System.out.println("Rp.8.477.922");
+                break;
+            case "4" :
+                System.out.println("Rp.8.602.137");    
+                break;
+            case "5" :
+                System.out.println("Rp.8.726.352");    
+                break;
+            case "6" :
+                System.out.println("Rp.8.850.567");    
+                break;
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+            System.out.print("\n Port Health Quarantine Clearance (PHQC)\t:" +pilihanUser7+"");
+            switch(pilihanUser7){
+            case "1" :
+                System.out.println("Rp.20.000");
+                break;
+            case "2" :
+                System.out.println("Rp.25.000");
+                break;
+            case "3" :
+                System.out.println("Rp.30.000");
+                break; 
+            case "4" :
+                System.out.println("Rp.35.000");
+                break;
+            case "5" :
+                System.out.println("Rp.50.000");
+                break;
+            case "6" :
+                System.out.println("Rp.60.000");
+                break;
+            case "7" :
+                System.out.println("Rp.75.000");
+                break;
+            case "8" :
+                System.out.println("Rp.85.000");
+                break;
+            case "9" :
+                System.out.println("Rp.100.000");
+                break;
+
+            default :
+                System.out.println("\n Inputan anda tidak ditemukan");
+            }
+        /*System.out.println("Apakah anda ingin menlanjutkan [y/n]?");
+        pilihanUser = terminalInput.next();*/
+        isLanjut = getYesorNo ("Apakah anda ingin melanjutkan");
+      
+    }
+      private static boolean getYesorNo(String massage){
+         Scanner terminalInput = new Scanner(System.in);
+         System.out.print("\n" +massage+"[y/n] ?");
+         String pilihanUser = terminalInput.next();
+         
+         while(!pilihanUser.equalsIgnoreCase("y") && !pilihanUser.equalsIgnoreCase("n"))
+         {
+             System.err.println("Pilihan anda bukan y dan n");
+             System.out.println("\n"+massage+"[y/n] ?");
+             pilihanUser = terminalInput.next();
+         }
+        return pilihanUser.equalsIgnoreCase("y");
+    }
+}
